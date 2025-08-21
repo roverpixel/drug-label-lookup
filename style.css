@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 300px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.drug-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.drug-card h3 {
+    margin-top: 0;
+}
