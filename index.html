@@ -11,6 +11,10 @@
     <p>Enter a medication name to look up its brand and generic names.</p>
     <input type="text" id="drug-name" placeholder="Enter drug name">
     <button id="search-btn">Search</button>
+    <div class="format-options">
+        <label for="format-toggle">View as table</label>
+        <input type="checkbox" id="format-toggle" onchange="handleFormatToggle()">
+    </div>
     <div id="results"></div>
 
     <script src="script.js"></script>
